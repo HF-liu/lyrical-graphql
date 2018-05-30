@@ -8,9 +8,9 @@ const client = new ApolloClient({})
 
 const Root = () => {
   return (
-    <AppoloProvider clien={client}>
+    <ApolloProvider client={client}>
       <div>Lyrical</div>
-    </AppoloProvider>
+    </ApolloProvider>
   )
 }
 
